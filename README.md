@@ -17,5 +17,5 @@ The functionality of this game has been implemented using:
 
 ## Play the game
 
-[link](https://https://rawgit.com/SulmanM96/Destiny_Clicker/blob/master/index.html);
+[link](https://cdn.rawgit.com/SulmanM96/Destiny_Clicker/blob/master/index.html);
 
