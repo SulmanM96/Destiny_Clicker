@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'bigNoodle';
+  src: url('../fonts/font.eot') format('opentype');
+  src: url('../fonts/font.ttf') format('truetype');
+}
+
+body, html {
+  font-family: 'bigNoodle', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-size: cover;
+  cursor: crosshair;
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+
+  /* transiotn added */
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+#blackBg {
+  background-color: #000000 ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+#bg {
+  background-color: #000000;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center 0px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+body, html.start {
+  opacity: 1;
+}
+
+/* styling for clear score button */
+
+.clearScore {
+  font-size: 20px
+}
+
+.text {
+  font-size: 20px;
+}
+
+.HUD {
+  font-size: 60px;
+}
+
+/* center text with this class */
+
+.center {
+  text-align: center;
+}
+
+.timer {
+  height: 80px;
+}
+
+.score {
+  height: 80px;
+}
+
+/* The Close Button */
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#button {
+  border-radius: 10%;
+  opacity: 0.8;
+  filter: alpha(opacity=90);
+  animation: buttons-animation 5s;
+  -webkit-animation: buttons-animation 5s infinite;
+  /* Safari and Chrome */
+}
+/* makes all buttons transparent
+including the score and timer  */
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: 'bigNoodle', sans-serif;
+  font-size: 80px;
+}
+
+.sizeInstructions {
+  font-size: 60px;
+}
+
+/* modal  */
+
+.modal {
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  opacity: 0.8;
+  filter: alpha(opacity=90);
+  /* For IE8 and earlier */
+}
+
+/* Modal Content */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background-image: url(../img/modal.gif);
+  background-size: cover;
+  border-radius: 5%;
+}
+
+@-webkit-keyframes buttons-animation {
+  30% {
+    background-color: white;
+  }
+  50% {
+    background-color: Dimgrey;
+  }
+  100% {
+    background-color: white;
+  }
+}

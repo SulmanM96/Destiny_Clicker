@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'bigNoodle';
+  src: url('../fonts/font.eot') format('opentype');
+  src: url('../fonts/font.ttf') format('truetype');
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body, html {
+  font-family: 'bigNoodle', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-image: url("../img/menu.jpg");
+  background-size: cover;
+  cursor: crosshair;
+  user-select: none;
+}
+
+.HUD {
+  font-size: 50px;
+}
+
+/* center text with this class */
+
+.center {
+  text-align: center;
+}
+
+#button {
+  border-radius: 2%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  animation: buttons-animation 5s;
+  -webkit-animation: buttons-animation 5s infinite;
+  /* Safari and Chrome */
+}
+
+/* make button transparent */
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: 'bigNoodle', sans-serif;
+  font-size: 80px;
+}
+
+.sizeInstructions {
+  font-size: 40px;
+}
+
+@-webkit-keyframes buttons-animation {
+  30% {
+    background-color: black;
+  }
+  50% {
+    background-color: DimGrey;
+  }
+  100% {
+    background-color: black;
+  }
+}
