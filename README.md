@@ -15,5 +15,5 @@ The functionality of this game has been implemented using:
 * JavaScript
 * JQuery v3.3.1
 
-## Play the game
-[link](https://sulmanm96.github.io/Destiny_Clicker/.);
+## Installation
+Download the folder and unzip it and then naviage to the index.html to start the game.
