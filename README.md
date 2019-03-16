@@ -17,5 +17,5 @@ The functionality of this game has been implemented using:
 
 ## Play the game
 
-[link](https://SulmanM96.github.io/Destiny_Clicker/);
+https://SulmanM96.github.io/Destiny_Clicker/
 
