@@ -16,4 +16,4 @@ The functionality of this game has been implemented using:
 * JQuery v3.3.1
 
 ## Play the game
-[link] https://sulmanm96.github.io/Destiny_Clicker/.
+[link] (https://sulmanm96.github.io/Destiny_Clicker/.);
